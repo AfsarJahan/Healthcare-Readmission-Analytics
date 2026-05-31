@@ -331,32 +331,26 @@ Deploy the model into operational workflows for proactive intervention.
 
 ---
 
-# 🛠️ Technology Stack
+## 🎯 Conclusion
 
-## Data Science
+This project developed an end-to-end healthcare analytics solution to predict 30-day hospital readmissions among diabetic patients.
 
-* Python
-* Pandas
-* NumPy
+After evaluating multiple machine learning models, XGBoost achieved the strongest overall performance with a ROC-AUC of 0.687 and PR-AUC of 0.237. Explainable AI analysis using SHAP revealed that previous inpatient visits, discharge disposition, utilization score, and disease complexity were the most influential predictors of readmission risk.
 
-## Machine Learning
+The interactive Power BI dashboard translates these insights into actionable visualizations, enabling healthcare stakeholders to identify high-risk patients, understand clinical risk factors, and support data-driven intervention strategies aimed at reducing preventable readmissions.
 
-* Scikit-Learn
-* XGBoost
+---
 
-## Explainability
+## 🛠️ Tech Stack
 
-* SHAP
-
-## Visualization
-
-* Power BI
-* Matplotlib
-* Seaborn
-
-## Environment
-
-* Jupyter Notebook
+| Tool | Purpose |
+|------|----------|
+| Power BI | Dashboard Development |
+| Python | Data Processing |
+| Pandas | Feature Engineering |
+| Scikit-Learn | Machine Learning |
+| XGBoost | Final Model |
+| SHAP | Explainable AI |
 
 ---
 
@@ -368,11 +362,6 @@ Healthcare-Readmission-Analytics
 ├── data
 │
 ├── notebook
-│   ├── 01_Data_Cleaning
-│   ├── 02_Feature_Engineering 
-│   ├── 03_Model_Development 
-│   ├── 04_Model_Evaluation 
-│   └── 05_SHAP_Analysis 
 │
 ├── models
 │
@@ -389,7 +378,6 @@ Healthcare-Readmission-Analytics
 │
 └── requirements.txt
 ```
-
 ---
 
 # 🔮 Future Enhancements
