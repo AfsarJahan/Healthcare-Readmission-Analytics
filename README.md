@@ -11,11 +11,7 @@
 <img src="https://img.shields.io/badge/SHAP-Explainable_AI-red?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Healthcare-Analytics-green?style=for-the-badge"/>
 
----
 
-### 🚀 End-to-End Healthcare Analytics Solution
-
-Machine Learning • Predictive Modeling • Explainable AI • Clinical Risk Stratification • Power BI
 
 </div>
 
