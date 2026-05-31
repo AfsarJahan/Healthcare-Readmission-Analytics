@@ -33,6 +33,7 @@ Machine Learning • Predictive Modeling • Explainable AI • Clinical Risk St
 - Explainable AI Analysis
 - Key Findings
 - Business Recommendations
+- Conclusion
 - Technology Stack
 - Repository Structure
 - Future Improvements
@@ -164,7 +165,7 @@ Several healthcare-specific features were engineered to improve predictive perfo
 | ROC-AUC           | 0.687 |
 | PR-AUC            | 0.237 |
 | Recall            | 58.2% |
-| Precision         | 19.1% |
+| Precision         |18.7%|
 | Optimal Threshold | 0.53  |
 
 ---
@@ -254,36 +255,31 @@ Provide transparency into model predictions and convert insights into business a
 
 # 🔬 Explainable AI Analysis
 
-## Top Clinical Drivers of Readmission
+### Top Clinical Drivers of Readmission
 
-| Rank | Clinical Driver           |
-| ---- | ------------------------- |
-| 1    | Previous Inpatient Visits |
-| 2    | Discharge Disposition     |
-| 3    | Utilization Score         |
-| 4    | Circulatory Diagnosis     |
-| 5    | Number of Diagnoses       |
-| 6    | Length of Stay            |
-| 7    | Medication Count          |
-| 8    | Lab Procedures            |
-| 9    | Frequent Admitter         |
-| 10   | Age                       |
-
+| Rank | Clinical Driver |
+|--------|----------------|
+| 1 | Previous Inpatient Visits |
+| 2 | Discharge Disposition |
+| 3 | Healthcare Utilization Score |
+| 4 | Circulatory Disease Diagnosis |
+| 5 | Number of Diagnoses |
 ---
 
 # 📌 Key Findings
 
-## Clinical Insights
 
-✔ Previous inpatient admissions were the strongest predictor of future readmission.
+### Clinical Insights
 
-✔ Utilization history outperformed demographic variables.
+✔ Previous inpatient admissions were the strongest predictor of future readmission risk.
 
-✔ Circulatory disease patients demonstrated elevated risk.
+✔ Healthcare utilization history was more predictive than demographic characteristics.
 
-✔ Medication burden significantly contributed to readmission likelihood.
+✔ Patients with circulatory diseases demonstrated elevated readmission risk.
 
-✔ High-risk patients exhibited repeated healthcare utilization patterns.
+✔ Medication burden and disease complexity contributed significantly to readmission likelihood.
+
+✔ High-risk patients were characterized by repeated healthcare utilization and longer hospital stays.
 
 ---
 
@@ -303,33 +299,34 @@ Provide transparency into model predictions and convert insights into business a
 
 ## 1. Post-Discharge Follow-Up Programs
 
-Prioritize patients with prior inpatient admissions.
+Prioritize patients with previous inpatient admissions, as prior hospitalization history was identified as the strongest predictor of future readmissions. Early follow-up appointments and care coordination can reduce avoidable returns.
 
 ---
 
 ## 2. High Utilization Care Management
 
-Develop targeted intervention pathways for high-utilization patients.
+Develop targeted care management programs for high-utilization patients. Personalized intervention plans can help reduce unnecessary healthcare utilization and improve long-term patient outcomes.
 
 ---
 
-## 3. Medication Reconciliation
+## 3. Medication Reconciliation & Review
 
-Perform discharge medication reviews to reduce complications.
-
----
-
-## 4. Chronic Disease Monitoring
-
-Increase surveillance of circulatory and respiratory patients.
+Implement comprehensive medication reviews before discharge to minimize medication-related complications and improve treatment adherence among patients with complex medication regimens.
 
 ---
 
-## 5. Predictive Risk Scoring
+## 4. Enhanced Monitoring for High-Risk Conditions
 
-Deploy the model into operational workflows for proactive intervention.
+Increase post-discharge monitoring and support for patients diagnosed with circulatory and respiratory conditions, which demonstrated elevated readmission risk within the population.
 
 ---
+
+## 5. Predictive Risk Scoring Deployment
+
+Integrate machine learning–based risk scoring into clinical workflows to proactively identify high-risk patients and allocate resources before readmission occurs.
+
+---
+
 
 ## 🎯 Conclusion
 
