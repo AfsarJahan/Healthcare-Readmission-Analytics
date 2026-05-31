@@ -192,9 +192,8 @@ Provides a high-level overview of the patient population and readmission statist
 * Gender Distribution
 * Readmission Distribution
 
-```markdown
-![Executive Summary](images/executive_summary.png)
-```
+### Executive Summary
+![Executive Summary](executive_summary.png)
 
 ---
 
@@ -211,9 +210,9 @@ Identify patient segments most vulnerable to readmission.
 * Readmission Rate by Age Group
 * Readmission Rate by Diagnosis Group
 
-```markdown
-![Risk Analysis](images/risk_analysis.png)
-```
+
+![Risk Analysis](risk_analysis.png)
+
 
 ---
 
@@ -230,9 +229,8 @@ Compare machine learning models and evaluate predictive effectiveness.
 * Model Comparison Table
 * Performance KPIs
 
-```markdown
-![Model Performance](images/model_performance.png)
-```
+![Model Performance](model_performance.png)
+
 
 ---
 
@@ -249,9 +247,8 @@ Provide transparency into model predictions and convert insights into business a
 * Key Findings
 * Strategic Recommendations
 
-```markdown
-![Explainability](images/explainability.png)
-```
+![Explainability](explainability.png)
+
 
 ---
 
@@ -370,12 +367,12 @@ Healthcare-Readmission-Analytics
 │
 ├── data
 │
-├── notebooks
-│   ├── 01_Data_Cleaning.ipynb
-│   ├── 02_Feature_Engineering.ipynb
-│   ├── 03_Model_Development.ipynb
-│   ├── 04_Model_Evaluation.ipynb
-│   └── 05_SHAP_Analysis.ipynb
+├── notebook
+│   ├── 01_Data_Cleaning
+│   ├── 02_Feature_Engineering 
+│   ├── 03_Model_Development 
+│   ├── 04_Model_Evaluation 
+│   └── 05_SHAP_Analysis 
 │
 ├── models
 │
